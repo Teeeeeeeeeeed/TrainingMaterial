@@ -204,6 +204,25 @@ Coolest Copilot with the best use case wins!
 
 ### Exercise 3 - Purchase App
 
+Let's start this exercise by  going in and making sure the following virtual entities are enabled: 
+
+- VendVendorV2Entity (VendorV2)
+- PurchPurchaseOrderHeaderV2Entity ( Purchase order headers V2)
+- PurchPurchaseOrderLineCDSEntity (CDS purchase order line entity)
+<br>
+
+
+Do the same steps as we did in [Enable Virtual Entities](https://github.com/Teeeeeeeeeeed/TrainingMaterial/edit/main/BuildingModernFOSolutions.md#enable-virtual-entities)
+
+
+
+
+Lets continue in the Maker portal  (make.powerapps.com)
+
+Make sure you are in the right environment
+
+
+
 
 
 
