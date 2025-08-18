@@ -64,16 +64,16 @@ And click on the Name
 
 
 <img width="1907" height="840" alt="image" src="https://github.com/user-attachments/assets/4c1a9867-f8be-4ab6-be80-e31ebbff8d90" />
-
+<br>
 Press Edit:
 <img width="1907" height="744" alt="image" src="https://github.com/user-attachments/assets/67074b41-3fdf-4b88-b004-0cc3968bab2c" />
-
+<br>
 
 Now filter on the Entity that you want to enable:
 <img width="1624" height="590" alt="image" src="https://github.com/user-attachments/assets/bb616ad7-2d14-44ae-b6da-16582c53444f" />
 
 <img width="1175" height="440" alt="image" src="https://github.com/user-attachments/assets/3e8aaf88-b0da-4430-984a-8c2ab4502f5f" />
-
+<br>
 Select the row and press "Edit row using form"
 <img width="1403" height="398" alt="image" src="https://github.com/user-attachments/assets/f76d30d3-aaa3-4a66-a8ee-d5adb3408113" />
 
