@@ -200,6 +200,9 @@ Coolest Copilot with the best use case wins!
 
 <br><br><br>
 
+
+
+
 ## Chapter 2 - Model-driven Apps
 
 ### Exercise 3 - Purchase App
@@ -214,9 +217,6 @@ Let's start this exercise by  going in and making sure the following virtual ent
 
 Do the same steps as we did in [Enable Virtual Entities](https://github.com/Teeeeeeeeeeed/TrainingMaterial/edit/main/BuildingModernFOSolutions.md#enable-virtual-entities)
 
-
-
-
 Let's continue in the Maker portal  (make.powerapps.com)
 
 Make sure you are in the right environment <br><br>
@@ -224,55 +224,54 @@ Make sure you are in the right environment <br><br>
 
 <img width="1376" height="588" alt="image" src="https://github.com/user-attachments/assets/e5f3a273-42db-469e-a3aa-86f5ae24b5c3" /> <br><br>
 
-Then go in and create a new solution <br>
-
+Then go in and create a new solution <br><br>
 <img width="1790" height="645" alt="image" src="https://github.com/user-attachments/assets/c819e81a-fc63-479a-8b7b-5763be204a33" /> <br><br>
 
-Add the 3 tables you just created to that solution by accessing the solution -> Press add existing Tables <br>
-
+Add the 3 tables you just created to that solution by accessing the solution -> Press add existing Tables<br><br>
 <img width="1022" height="565" alt="image" src="https://github.com/user-attachments/assets/115afad0-cb8d-483d-9e31-23d0277a3653" /> <br> <br>
 
-Find the 3 tables and run <br>
+Find the 3 tables and run <br><br>
 <img width="1367" height="835" alt="image" src="https://github.com/user-attachments/assets/5694c144-4b0f-43ca-9cb6-3607fee8ee9c" /> <br><br>
 
-Select Include All objects for all 3 tables and press Add <br>
+Select Include All objects for all 3 tables and press Add <br><br>
 <img width="1351" height="842" alt="image" src="https://github.com/user-attachments/assets/892fdd0e-76de-4a16-8041-1a859413d078" /> <br><br>
 
 Let's create an App !<br>
 
-In the solution press New -> App -> Modeldriven <br>
-<img width="1242" height="480" alt="image" src="https://github.com/user-attachments/assets/9bf62108-a760-4aab-8f7d-589e87d3e6fe" /> <br<br>
+In the solution press New -> App -> Modeldriven <br><br>
+<img width="1242" height="480" alt="image" src="https://github.com/user-attachments/assets/9bf62108-a760-4aab-8f7d-589e87d3e6fe" /> <br><br>
 
 
-Name your app Purchase APP Press Create <br>
+Name your app "Purchase APP" <br>
+Press Create <br>
 
-Start by adding our 3 tables to the app by pressing Data -> Search for the table -> Add to app <br>
+Start by adding our 3 tables to the app by pressing Data -> Search for the table -> Add to app <br><br>
 <img width="679" height="571" alt="image" src="https://github.com/user-attachments/assets/29a47ae8-0a9a-40ec-95ee-cc57dfadd89d" /> <br><br>
 
 First, press Save -> then Press Publish! <br>
 Then try the app out by pressing play! <br>
-Try it out! <br>
+Try it out! <br><br>
 <img width="1917" height="800" alt="image" src="https://github.com/user-attachments/assets/8ff461bd-7bee-46b2-b478-9f3aa3853c0f" /> <br><br>
 
 Okay some more work here is obviously needed…… <br>
 Let's go back to the app designer <br>
-Start with the vendor view by pressing the edit button to the right of it in the navigation <br>
+Start with the vendor view by pressing the edit button to the right of it in the navigation <br><br>
 <img width="1230" height="716" alt="image" src="https://github.com/user-attachments/assets/dc4e909d-31f4-4499-a832-376b103479a7" /><br><br>
 
 Add the fields you think are appropriate for the list/View <br>
 If you want to look at the data to understand what the fields contain, open a new tab and go to tables in the maker portal <br>
-Select the table you want to view -> select edit -> Add all columns <br>
+Select the table you want to view -> select edit -> Add all columns <br><br>
 <img width="1294" height="662" alt="image" src="https://github.com/user-attachments/assets/9906afa3-ca64-407c-a5bc-e014c3eaf821" /> <br><br>
 <img width="1870" height="736" alt="image" src="https://github.com/user-attachments/assets/991c7c65-7e51-4891-8d55-843720774861" /> <br><br>
 
-Once you are satisfied, press Save and Publish <br>
+Once you are satisfied, press Save and Publish <br><br>
 <img width="1916" height="767" alt="image" src="https://github.com/user-attachments/assets/9b15e152-0e75-480c-a35b-8dabb892bc16" /> <br><br>
 
-Now let's go in and edit the form <br>
+Now let's go in and edit the form <br><br>
 <img width="1851" height="716" alt="image" src="https://github.com/user-attachments/assets/6593c06b-8e9e-439e-bc28-49ac42cff9fb" /> <br><br>
 
 Add the fields you think are appropriate for the form by double clicking them <br>
-Forms usually contain more fields than the views, it’s a drill-down feature. <br>
+Forms usually contain more fields than the views, it’s a drill-down feature. <br><br>
 <img width="1542" height="559" alt="image" src="https://github.com/user-attachments/assets/8edd70cf-37a3-4b0e-bca8-978d93fab6f4" /> <br><br>
 
 Make sure to at least have added:<br>
@@ -286,13 +285,13 @@ Also, add a sub grid in the end by pressing <br>
 Compoonents -> Subgrid <br>
 Select table Purchase Order header V2 <br>
 Select Default view All Purchase orders <br>
-And press done <br>
+And press done <br><br>
 <img width="1033" height="744" alt="image" src="https://github.com/user-attachments/assets/cdda5356-e84e-4209-850b-b3264058137d" /> <br><br>
 
 Press Save and publish <br>
 Play the app again! <br>
 Now try creating a new vendor by clicking vendor in your menu -> New <br>
-Fill in the needed fields and press Save <br>
+Fill in the needed fields and press Save <br><br>
 <img width="1419" height="772" alt="image" src="https://github.com/user-attachments/assets/c9f5bfd8-7702-4d26-a2f4-805afcc8570d" /> <br><br>
 
 Go into F&O, search for vendors in the legal entity that you defined for the vendor. <br>
@@ -322,7 +321,7 @@ On the CDS purchase order line form add at least add:
 Ones you are all done press save and publish <br>
 Runn your app agin!<br>
 Go to Vendors in the Menu ->, find the vendor you created before and access it <br>
-Create a new Purchase Order on it <br>
+Create a new Purchase Order on it <br><br>
 <img width="1854" height="863" alt="image" src="https://github.com/user-attachments/assets/a648646e-24da-42f9-bc3e-73fa0cebaf33" /> <br><br>
 <img width="1917" height="817" alt="image" src="https://github.com/user-attachments/assets/c2ae262d-649b-44f9-9e4a-8fa86e8a4ef5" /><br><br>
 <img width="1580" height="900" alt="image" src="https://github.com/user-attachments/assets/c177f11e-fc19-42dd-af29-8a0efe8a1242" /><br><br>
