@@ -386,13 +386,35 @@ Press Ok <br>
 <img width="888" height="800" alt="image" src="https://github.com/user-attachments/assets/7facac06-f091-443b-ac6a-b48e11754909" /> <br><br>
 <img width="562" height="827" alt="image" src="https://github.com/user-attachments/assets/bec56d51-f9b3-4e10-8696-0da14e67cb9f" /> <br><br>
 
+This tells it that the start date of the exchange rate should be tomorrow. <br>
+
 Press save <br><br>
 
 
 Now it's time to test it! <br>
 Press Test in the upper right corner<br>
 Select Manual and press Test <br>
-Press run flow and done
+Press run flow and done <br><br>
+
+By returning to the main page of the flow, you can view how your run has executed.<br>
+When there are errors, you can access a specific run and read the errors by clicking on the time for it <br><br>
+
+<img width="1108" height="556" alt="image" src="https://github.com/user-attachments/assets/8dc3d54a-9ef6-4140-b597-05ea83dcd746" /> <br<<br>
+<img width="1913" height="658" alt="image" src="https://github.com/user-attachments/assets/3c1fcceb-f056-4c64-a0c6-9aa4329990fb" />  <br<<br>
+
+But if you had a successful run or at least the majority of your runs were successful, Open F&O, search for "Currency Exchange Rates"<br><br>
+
+<img width="492" height="507" alt="image" src="https://github.com/user-attachments/assets/a39ac866-6081-4202-9971-df767d3bc142" /><br><br>
+
+And check if your updated rates are there! <br>
+You can check between different exchange rate types if you want as well <br><br>
+
+<img width="974" height="807" alt="image" src="https://github.com/user-attachments/assets/15b5123f-993b-4c62-81dc-1de9a842fb23" /><br><br>
+
+
+
+
+
 
 
 
