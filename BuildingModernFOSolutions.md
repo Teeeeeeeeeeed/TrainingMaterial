@@ -320,7 +320,7 @@ Go: New -> Automation -> Cloud flow - Instant <br><br>
 
 
 Name the Flow "Exchange Rate Updater"<br>
-Select" Mannually trigger ap flow"<br>
+Select" Manually trigger a flow"<br>
 Press "Create" <br><br>
 <img width="675" height="427" alt="image" src="https://github.com/user-attachments/assets/7f77d80f-5d46-47eb-a6c4-cda94c30716a" /> <br><br>
 
@@ -329,6 +329,7 @@ Select the Dataverse "List Rows" Action<br <br>
 <img width="491" height="591" alt="image" src="https://github.com/user-attachments/assets/fbeb3f51-8f45-4c8a-ae53-3dfdec45a6db" /> <br><br>
 
 In the table name select "Exchange rate currency pair (mserp)" <br>
+Important! - If you have two ones, select the bottom one. If you have two and select the top one , you will gett an Issue later in the exercise <br>
 Press Save <br><br>
 <img width="565" height="444" alt="image" src="https://github.com/user-attachments/assets/abc758c7-025a-4ca3-b271-9b72a3df2a8d" /> <br><br>
 
@@ -340,7 +341,7 @@ Press New step and add a "Apply to each" function <br><br>
 <img width="487" height="674" alt="image" src="https://github.com/user-attachments/assets/cd54c904-901b-40c8-b93a-6207d78a153c" /> <br><br>
 
 Select the Currency Pair Value/list of values as output <br>
-Select "Add a action"<br><br>
+Select "Add an action"<br><br>
 <img width="850" height="643" alt="image" src="https://github.com/user-attachments/assets/063a9a09-5291-40e0-9272-487bd37efc2f" /><br<<br>
 <img width="511" height="400" alt="image" src="https://github.com/user-attachments/assets/8d1ab802-e804-4726-b802-e7b011c5eddb" /><br<<br>
 
@@ -350,10 +351,42 @@ Select the "Get Exchange Rate Action"<br><br>
 
 Now open a new tab on your browser and go to: https://app.exchangerate-api.com/sign-up <br>
 Press Get A Free key and sign up <br>
-Ones confirmed your email The API key will then be sent to you via email <br>
-Give you connection a name and add the API Key that was sent to you: <br>
+Once confirmed, your email the API key will then be sent to you via email <br>
+Give your connection a name and add the API Key that was sent to you: <br>
 <img width="852" height="536" alt="image" src="https://github.com/user-attachments/assets/c8bac7e2-04c1-4e84-9ef5-48c85e8c0f25" /><br><br>
 <img width="549" height="618" alt="image" src="https://github.com/user-attachments/assets/e118d2b3-a865-45e3-86e5-2a0ec91ea54b" /><br><br>
+
+Add the From currency (from the Currency Pair) to the Base Currency <br>
+Add the To currency (from the Currency Pair) to the Target Currency <br><br>
+<img width="837" height="623" alt="image" src="https://github.com/user-attachments/assets/84d154a3-a871-4beb-a3ee-aa4a74586b68" /> <br><br>
+
+Press Add an action <br>
+Select Add a new row from the dataverse connector<br<br>
+<img width="650" height="824" alt="image" src="https://github.com/user-attachments/assets/0474aec3-2321-4bfa-a44b-0577e74a0f4e" /> <br><br>
+
+Select Exchange rates (mserp) - with a S in the end of rates. <br>
+Map the following values:
+- Conversion factor -> Conversion Factor - from Currency Pairs
+- Exchange Rate -> Conversion rate - from Get Exchange Rate
+- Exchange rate type ->Exchange rate type - from Currency Pairs
+- From Currency -> From Currency - from Currency Pairs
+- To Currency -> To Currency - from Currency Pairs
+<br><br>
+
+<img width="910" height="725" alt="image" src="https://github.com/user-attachments/assets/8c66f3d1-f74c-4054-9629-fd0906d04df3" /> <br><br>
+
+Now Press "Show advanced options" <br><br>
+<img width="650" height="666" alt="image" src="https://github.com/user-attachments/assets/32bd0db4-1172-4d07-9d0d-e4f9757f3a98" /> <br><br>
+
+
+
+getFutureTime(1, 'Day', 'D')
+
+Now press save <br><br>
+
+
+
+
 
 
 
