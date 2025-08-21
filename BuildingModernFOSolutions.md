@@ -378,11 +378,21 @@ Map the following values:
 Now Press "Show advanced options" <br><br>
 <img width="650" height="666" alt="image" src="https://github.com/user-attachments/assets/32bd0db4-1172-4d07-9d0d-e4f9757f3a98" /> <br><br>
 
+Now Press "Show advanced options" <br>
+Press the value for Start Date <br>
+Press expressions <br>
+And paste: getFutureTime(1, 'Day', 'D') in the FX field <br>
+Press Ok <br>
+<img width="888" height="800" alt="image" src="https://github.com/user-attachments/assets/7facac06-f091-443b-ac6a-b48e11754909" /> <br><br>
+<img width="562" height="827" alt="image" src="https://github.com/user-attachments/assets/bec56d51-f9b3-4e10-8696-0da14e67cb9f" /> <br><br>
+
+Press save <br><br>
 
 
-getFutureTime(1, 'Day', 'D')
-
-Now press save <br><br>
+Now it's time to test it! <br>
+Press Test in the upper right corner<br>
+Select Manual and press Test <br>
+Press run flow and done
 
 
 
