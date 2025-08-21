@@ -329,7 +329,38 @@ Select the Dataverse "List Rows" Action<br <br>
 <img width="491" height="591" alt="image" src="https://github.com/user-attachments/assets/fbeb3f51-8f45-4c8a-ae53-3dfdec45a6db" /> <br><br>
 
 In the table name select "Exchange rate currency pair (mserp)" <br>
-Press Save<br>
+Press Save <br><br>
+<img width="565" height="444" alt="image" src="https://github.com/user-attachments/assets/abc758c7-025a-4ca3-b271-9b72a3df2a8d" /> <br><br>
+
+
+Change the name of the List rows Action to "Currency Pairs" <br><br>
+<img width="730" height="451" alt="image" src="https://github.com/user-attachments/assets/ba451334-5281-4fae-9013-4b78661b20d7" /> <br><br>
+
+Press New step and add a "Apply to each" function <br><br>
+<img width="487" height="674" alt="image" src="https://github.com/user-attachments/assets/cd54c904-901b-40c8-b93a-6207d78a153c" /> <br><br>
+
+Select the Currency Pair Value/list of values as output <br>
+Select "Add a action"<br><br>
+<img width="850" height="643" alt="image" src="https://github.com/user-attachments/assets/063a9a09-5291-40e0-9272-487bd37efc2f" /><br<<br>
+<img width="511" height="400" alt="image" src="https://github.com/user-attachments/assets/8d1ab802-e804-4726-b802-e7b011c5eddb" /><br<<br>
+
+Select the "Get Exchange Rate Action"<br><br>
+<img width="533" height="831" alt="image" src="https://github.com/user-attachments/assets/f1593454-66d5-44f4-a5c4-5b25eddc6530" /> <br><br>
+<img width="543" height="680" alt="image" src="https://github.com/user-attachments/assets/af793e58-c0ba-4f77-8a84-d1293e54b6f8" /> <br><br>
+
+Now open a new tab on your browser and go to: https://app.exchangerate-api.com/sign-up <br>
+Press Get A Free key and sign up <br>
+Ones confirmed your email The API key will then be sent to you via email <br>
+Give you connection a name and add the API Key that was sent to you: <br>
+<img width="852" height="536" alt="image" src="https://github.com/user-attachments/assets/c8bac7e2-04c1-4e84-9ef5-48c85e8c0f25" /><br><br>
+<img width="549" height="618" alt="image" src="https://github.com/user-attachments/assets/e118d2b3-a865-45e3-86e5-2a0ec91ea54b" /><br><br>
+
+
+
+
+
+
+
 
 
 
