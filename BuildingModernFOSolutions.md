@@ -286,6 +286,31 @@ Create a new Purchase Order on it <br><br>
 
 Now go into F&O agin, can you find your purchase order and purchase order line? <br><br>
 
+<br><br><br>
+
+
+## Chapter 3 - Power Automate
+
+### Exercise 4 - Exchange Rate Updater
+
+Let's start this exercise by  going in and making sure the following virtual entities are enabled: 
+
+- ExchangeRateCurrencyPairEntity (Exchange rate currency pair)
+- ExchangeRateEntity (Exchange rates)
+
+<br>
+
+Do the same steps as we did in [Enable Virtual Entities](https://github.com/Teeeeeeeeeeed/TrainingMaterial/edit/main/BuildingModernFOSolutions.md#enable-virtual-entities) <br><br>
+
+Let's continue in the Maker portal  (make.powerapps.com) <br><br>
+
+Make sure you are in the right environment <br><br>
+<img width="1376" height="588" alt="image" src="https://github.com/user-attachments/assets/e5f3a273-42db-469e-a3aa-86f5ae24b5c3" /> <br><br>
+
+Now open the solution you created before <br><br>
+
+
+
 
 
 
