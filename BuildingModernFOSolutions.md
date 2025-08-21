@@ -308,6 +308,34 @@ Make sure you are in the right environment <br><br>
 <img width="1376" height="588" alt="image" src="https://github.com/user-attachments/assets/e5f3a273-42db-469e-a3aa-86f5ae24b5c3" /> <br><br>
 
 Now open the solution you created before <br><br>
+<img width="1372" height="750" alt="image" src="https://github.com/user-attachments/assets/66574190-2e1d-414f-92c7-146b1e4010b3" /> <br><br>
+
+Start by adding the two entities we just enabled to the solution, just as we did in exercise 3.<br><br>
+
+Now let's create a new Power Automate in the solution: <br>
+Go: New -> Automation -> Cloud flow - Instant <br><br>
+
+<img width="1604" height="409" alt="image" src="https://github.com/user-attachments/assets/169974a6-ac3e-496f-a8ce-ddfc151f660a" />
+
+
+
+Name the Flow "Exchange Rate Updater"<br>
+Select" Mannually trigger ap flow"<br>
+Press "Create" <br><br>
+<img width="675" height="427" alt="image" src="https://github.com/user-attachments/assets/7f77d80f-5d46-47eb-a6c4-cda94c30716a" /> <br><br>
+
+Press "New Step" <br>
+Select the Dataverse "List Rows" Action<br <br>
+<img width="491" height="591" alt="image" src="https://github.com/user-attachments/assets/fbeb3f51-8f45-4c8a-ae53-3dfdec45a6db" /> <br><br>
+
+In the table name select "Exchange rate currency pair (mserp)" <br>
+Press Save<br>
+
+
+
+
+
+
 
 
 
