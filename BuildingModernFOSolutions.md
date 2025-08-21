@@ -325,7 +325,7 @@ Press "Create" <br><br>
 <img width="675" height="427" alt="image" src="https://github.com/user-attachments/assets/7f77d80f-5d46-47eb-a6c4-cda94c30716a" /> <br><br>
 
 Press "New Step" <br>
-Select the Dataverse "List Rows" Action<br <br>
+Select the Dataverse "List Rows" Action <br> <br>
 <img width="491" height="591" alt="image" src="https://github.com/user-attachments/assets/fbeb3f51-8f45-4c8a-ae53-3dfdec45a6db" /> <br><br>
 
 In the table name select "Exchange rate currency pair (mserp)" <br>
@@ -343,7 +343,7 @@ Press New step and add a "Apply to each" function <br><br>
 Select the Currency Pair Value/list of values as output <br>
 Select "Add an action"<br><br>
 <img width="850" height="643" alt="image" src="https://github.com/user-attachments/assets/063a9a09-5291-40e0-9272-487bd37efc2f" /><br<<br>
-<img width="511" height="400" alt="image" src="https://github.com/user-attachments/assets/8d1ab802-e804-4726-b802-e7b011c5eddb" /><br<<br>
+<img width="511" height="400" alt="image" src="https://github.com/user-attachments/assets/8d1ab802-e804-4726-b802-e7b011c5eddb" /><br><br>
 
 Select the "Get Exchange Rate Action"<br><br>
 <img width="533" height="831" alt="image" src="https://github.com/user-attachments/assets/f1593454-66d5-44f4-a5c4-5b25eddc6530" /> <br><br>
@@ -352,7 +352,7 @@ Select the "Get Exchange Rate Action"<br><br>
 Now open a new tab on your browser and go to: https://app.exchangerate-api.com/sign-up <br>
 Press Get A Free key and sign up <br>
 Once confirmed, your email the API key will then be sent to you via email <br>
-Give your connection a name and add the API Key that was sent to you: <br>
+Give your connection a name and add the API Key that was sent to you: <br> <br>
 <img width="852" height="536" alt="image" src="https://github.com/user-attachments/assets/c8bac7e2-04c1-4e84-9ef5-48c85e8c0f25" /><br><br>
 <img width="549" height="618" alt="image" src="https://github.com/user-attachments/assets/e118d2b3-a865-45e3-86e5-2a0ec91ea54b" /><br><br>
 
@@ -361,7 +361,7 @@ Add the To currency (from the Currency Pair) to the Target Currency <br><br>
 <img width="837" height="623" alt="image" src="https://github.com/user-attachments/assets/84d154a3-a871-4beb-a3ee-aa4a74586b68" /> <br><br>
 
 Press Add an action <br>
-Select Add a new row from the dataverse connector<br<br>
+Select the Dataverse "List Rows" Action <br><br>
 <img width="650" height="824" alt="image" src="https://github.com/user-attachments/assets/0474aec3-2321-4bfa-a44b-0577e74a0f4e" /> <br><br>
 
 Select Exchange rates (mserp) - with a S in the end of rates. <br>
@@ -382,7 +382,7 @@ Now Press "Show advanced options" <br>
 Press the value for Start Date <br>
 Press expressions <br>
 And paste: getFutureTime(1, 'Day', 'D') in the FX field <br>
-Press Ok <br>
+Press Ok <br> <br>
 <img width="888" height="800" alt="image" src="https://github.com/user-attachments/assets/7facac06-f091-443b-ac6a-b48e11754909" /> <br><br>
 <img width="562" height="827" alt="image" src="https://github.com/user-attachments/assets/bec56d51-f9b3-4e10-8696-0da14e67cb9f" /> <br><br>
 
@@ -399,8 +399,8 @@ Press run flow and done <br><br>
 By returning to the main page of the flow, you can view how your run has executed.<br>
 When there are errors, you can access a specific run and read the errors by clicking on the time for it <br><br>
 
-<img width="1108" height="556" alt="image" src="https://github.com/user-attachments/assets/8dc3d54a-9ef6-4140-b597-05ea83dcd746" /> <br<<br>
-<img width="1913" height="658" alt="image" src="https://github.com/user-attachments/assets/3c1fcceb-f056-4c64-a0c6-9aa4329990fb" />  <br<<br>
+<img width="1108" height="556" alt="image" src="https://github.com/user-attachments/assets/8dc3d54a-9ef6-4140-b597-05ea83dcd746" /> <br><br>
+<img width="1913" height="658" alt="image" src="https://github.com/user-attachments/assets/3c1fcceb-f056-4c64-a0c6-9aa4329990fb" />  <br><br>
 
 But if you had a successful run or at least the majority of your runs were successful, Open F&O, search for "Currency Exchange Rates"<br><br>
 
