@@ -48,7 +48,7 @@ If you bring your own environment, make sure the following requirements are met:
 
 
 ## Chapter 1 - Copilot studio
-For the first exerciser, we need to enable the VT entities:
+For the first exercises, we need to enable the VT entities:
 - "SalesOrderLineV2Entity" and
 - "SALESORDERHEADERV4ENTITY"
 
@@ -111,7 +111,7 @@ Click the plus under the Trigger -> Advanced -> Generative Answer <br><br>
 Set Search only selected sources <br>
 Set 'Sales order headers V4' as Knowledge Source <br>
 Set Web search to false <br>
-Set the input to : 2How many 'Sales order header V4' records are there where 'Status' equals 'Open order'" <br>
+Set the input to : "How many 'Sales order header V4' records are there where 'Status' equals 'Open order'" <br>
 And press save <br><br>
 <img width="822" height="766" alt="image" src="https://github.com/user-attachments/assets/efd6e54a-863e-4405-a086-d88a68b3cbc0" /> <br><br>
 
@@ -165,7 +165,7 @@ Coolest Copilot with the best use case wins!
 
 ### Exercise 3 - Purchase App
 
-Let's start this exercise by  going in and making sure the following virtual entities are enabled: 
+Let's start this exercise by going in and making sure the following virtual entities are enabled: 
 
 - VendVendorV2Entity (VendorV2)
 - PurchPurchaseOrderHeaderV2Entity ( Purchase order headers V2)
@@ -277,14 +277,14 @@ On the CDS purchase order line form add at least add:
 <br>
 
 Ones you are all done press save and publish <br>
-Runn your app agin!<br>
+Run your app agin!<br>
 Go to Vendors in the Menu ->, find the vendor you created before and access it <br>
 Create a new Purchase Order on it <br><br>
 <img width="1854" height="863" alt="image" src="https://github.com/user-attachments/assets/a648646e-24da-42f9-bc3e-73fa0cebaf33" /> <br><br>
 <img width="1917" height="817" alt="image" src="https://github.com/user-attachments/assets/c2ae262d-649b-44f9-9e4a-8fa86e8a4ef5" /><br><br>
 <img width="1580" height="900" alt="image" src="https://github.com/user-attachments/assets/c177f11e-fc19-42dd-af29-8a0efe8a1242" /><br><br>
 
-Now go into F&O agin, can you find your purchase order and purchase order line? <br><br>
+Now go into F&O again, can you find your purchase order and purchase order line? <br><br>
 
 <br><br><br>
 
@@ -293,7 +293,7 @@ Now go into F&O agin, can you find your purchase order and purchase order line? 
 
 ### Exercise 4 - Exchange Rate Updater
 
-Let's start this exercise by  going in and making sure the following virtual entities are enabled: 
+Let's start this exercise by going in and making sure the following virtual entities are enabled: 
 
 - ExchangeRateCurrencyPairEntity (Exchange rate currency pair)
 - ExchangeRateEntity (Exchange rates)
@@ -329,7 +329,7 @@ Select the Dataverse "List Rows" Action <br> <br>
 <img width="491" height="591" alt="image" src="https://github.com/user-attachments/assets/fbeb3f51-8f45-4c8a-ae53-3dfdec45a6db" /> <br><br>
 
 In the table name select "Exchange rate currency pair (mserp)" <br>
-Important! - If you have two ones, select the bottom one. If you have two and select the top one , you will gett an Issue later in the exercise <br>
+Important! - If you have two ones, select the bottom one. If you have two and select the top one , you will get an issue later in the exercise <br>
 Press Save <br><br>
 <img width="565" height="444" alt="image" src="https://github.com/user-attachments/assets/abc758c7-025a-4ca3-b271-9b72a3df2a8d" /> <br><br>
 
