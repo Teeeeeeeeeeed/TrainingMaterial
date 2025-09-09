@@ -132,9 +132,6 @@ After the topic, add a question to it <br>
 "What status should we sum it for?" <br>
 
 In Identity select Multiple choice option <br><br>
-<img width="434" height="446" alt="image" src="https://github.com/user-attachments/assets/b761b398-86c1-450b-a6a4-3a540c2db410" /> <br><br>
-<img width="748" height="725" alt="image" src="https://github.com/user-attachments/assets/ae739d13-27b5-41dc-bc71-e9a6653f0695" /> <br><br>
-
 
 - Open Order
 - Delivered
@@ -146,17 +143,11 @@ In Identity select Multiple choice option <br><br>
 
 If Conditions are created below, Delete them <br><br>
 
-<img width="923" height="817" alt="image" src="https://github.com/user-attachments/assets/ad7776e9-015b-4a01-8572-93962916db08" /> <br><br>
-<img width="390" height="329" alt="image" src="https://github.com/user-attachments/assets/0c6c8ab8-e5a7-4748-898b-ea62ce510271" /> <br><br>
-
-
-
-
-
 Create the Generative Answer and set the data source to 'Sales Order Lines V2'<br>
 Press the 3 dots in the input and formula and past: <br>
 "Whats the Sum of Net Value for all 'Sales Order Line v2' records where 'Line Status' equals " & Topic.Var1 <br><br>
-<img width="822" height="632" alt="image" src="https://github.com/user-attachments/assets/e48ad08b-1455-408d-8e28-3b4b5845f3bd" /> <br><br>
+<img width="778" height="485" alt="image" src="https://github.com/user-attachments/assets/4adfb1e5-797b-420e-b49f-61912fb6a3d0" /> <br><br>
+ <br><br>
 
 Save and Publish and try! <br>
 <br>
