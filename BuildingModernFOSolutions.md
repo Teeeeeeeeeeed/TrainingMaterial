@@ -131,19 +131,20 @@ Let it trigger on phrases like "Open Net Value", "What's the open net value", "N
 After the topic, add a question to it <br>
 "What status should we sum it for?" <br>
 
-In Identity select Entity <br><br>
+In Identity select Multiple choice option <br><br>
 <img width="434" height="446" alt="image" src="https://github.com/user-attachments/assets/b761b398-86c1-450b-a6a4-3a540c2db410" /> <br><br>
 <img width="748" height="725" alt="image" src="https://github.com/user-attachments/assets/ae739d13-27b5-41dc-bc71-e9a6653f0695" /> <br><br>
 
-Press Closed List <br>
-Name the Entity "Sales Order Statuses" <br>
-Add the following Statuses: <br>
+
 - Open Order
 - Delivered
 - Invoiced
 - Canceled
 
-Press save <br><br>
+<img width="530" height="876" alt="image" src="https://github.com/user-attachments/assets/8a797cde-c433-4f70-827f-350b2b0736d8" /><br><br>
+
+
+If Conditions are created below, Delete them <br><br>
 
 <img width="923" height="817" alt="image" src="https://github.com/user-attachments/assets/ad7776e9-015b-4a01-8572-93962916db08" /> <br><br>
 <img width="390" height="329" alt="image" src="https://github.com/user-attachments/assets/0c6c8ab8-e5a7-4748-898b-ea62ce510271" /> <br><br>
