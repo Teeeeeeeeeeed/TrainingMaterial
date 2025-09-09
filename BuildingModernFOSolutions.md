@@ -49,8 +49,8 @@ If you bring your own environment, make sure the following requirements are met:
 
 ## Chapter 1 - Copilot studio
 For the first exercises, we need to enable the VT entities:
-- "SalesOrderLineV2Entity" and
-- "SALESORDERHEADERV4ENTITY"
+- "SalesOrderLineV2Entity" (Sales order line V2) and
+- "SALESORDERHEADERV4ENTITY" (Sales order headers V4)
 
 <br>
 
