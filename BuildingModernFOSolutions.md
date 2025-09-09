@@ -245,6 +245,7 @@ Make sure to at least have added:<br>
 - Name
 - City
 - Country/Region
+- Company Code
 - Group
 <br>
 
