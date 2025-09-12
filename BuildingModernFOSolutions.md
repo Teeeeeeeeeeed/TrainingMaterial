@@ -88,10 +88,15 @@ Press "Agents" -> Press the "Copilot for finance and operations apps" <br> <br>
 <img width="1910" height="790" alt="image" src="https://github.com/user-attachments/assets/cc9c1433-c6a0-4b59-838d-b5922c4d7551" /> <br><br>
 
 
-Press Knowledge -> Dataverse <br>
-Search for the tables/entities, select it and press add! <br>
-Do the same for the other tables/entities <br>
-Go to Topics -> Add a Topic -Select from blank <br><br>
+Press Knowledge -> Dataverse <br><br>
+<img width="1203" height="572" alt="image" src="https://github.com/user-attachments/assets/b4e46b29-32a7-4a12-a0d3-1b8e49834d84" /> <br><br>
+
+Search for the tables/entities, select them and press add! <br><br>
+<img width="1079" height="608" alt="image" src="https://github.com/user-attachments/assets/fd5a6208-8c6e-445b-bc19-7f42788d145f" /> <br><br>
+<img width="936" height="324" alt="image" src="https://github.com/user-attachments/assets/3e20a64e-108b-4c08-9171-c63f8bf1ebe2" /> <br><br>
+
+
+Go to Topics -> Add a Topic -Select from blank, and enter a name <br><br>
 <img width="1420" height="448" alt="image" src="https://github.com/user-attachments/assets/3308d22e-099a-41e5-b767-8909cd1a35a0" /> <br><br>
 
 In the trigger section, press edit on User says a phrase <br>
