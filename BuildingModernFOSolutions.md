@@ -96,7 +96,7 @@ Search for the tables/entities, select them and press add! <br><br>
 <img width="936" height="324" alt="image" src="https://github.com/user-attachments/assets/3e20a64e-108b-4c08-9171-c63f8bf1ebe2" /> <br><br>
 
 
-Go to Topics -> Add a Topic -Select from blank, and enter a name <br><br>
+Go to Topics -> Add a Topic -Select from blank <br><br>
 <img width="1420" height="448" alt="image" src="https://github.com/user-attachments/assets/3308d22e-099a-41e5-b767-8909cd1a35a0" /> <br><br>
 
 In the trigger section, press edit on User says a phrase <br>
