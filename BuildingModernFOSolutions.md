@@ -4,7 +4,6 @@
 In this Training, we will take a deep dive into virtual entities and explore the whole new world of possibilities they offer. We will discuss how it has influenced best practices for designing solutions and examine several designs that utilise it.
 
 We will walk you through and do exercises on how you use the virtual entities to build solutions with tools like:
-- Copilot Studio
 - Power Automate
 - Power Apps
 <br>
@@ -12,14 +11,14 @@ We will walk you through and do exercises on how you use the virtual entities to
 ## Pre-requisites
 
 ### Attendee Background:
-Everybody is welcome to join, the session is designed for individuals coming from the F&O side. You do not need to be a pro in Power Platform, we are here for you. <br>
+This training is intended either for someone coming from the F&O side wanting to extend their game with power platform tools on their F&O data, or if you are a power platform expert wishing to extend the use cases of your skillset to cover the F&O processes as well <br>
 
 Developer experience is not required; we will only use drag-and-drop tools. <br><br>
 
 
 ### Environment
 
-When doing the exercises in this workshop, you need an environment. <br>
+When doing the exercises, you need an environment. <br>
 You can choose to:<br>
  1. Set up a 30-day trial environment in a  trial tenant or
  2. Bring your own environment.
@@ -31,9 +30,8 @@ To use a 30-day trial environment, follow the instructions in this link: <br>
 
 https://medium.com/@ted.ohlsson/setting-up-trial-f-o-environments-on-trial-tenants-1c108da8d59a <br><br>
 
-Ensure that the environment is set up before the workshop.<br>
-There are some steps where you need to wait on background processes, so start setting it up a couple of days before the workshop. <br>
-Make sure to install the Virtual entity and Copilot parts as well!<br><br>
+There are some steps that require you to wait for background processes, so start setting it up a couple of days before the you aim to start the training. <br>
+Make sure to install the Virtual entity parts as well!<br><br>
 
 #### Bring your own environment
 If you bring your own environment, make sure the following requirements are met:
@@ -41,7 +39,6 @@ If you bring your own environment, make sure the following requirements are met:
 - Working virtual entities enabled in the environment (usually, it works out of the box in all T2 environments)
 - Your User has System Administrator security role rights in both F&O and Dataverse
 - Your F&O environment has Contoso data or is a fully implemented environment with data.
-- Your User has access to Copilot Studio
 - Your DLPs have all the Power Platform, F&O, and Copilot connectors enabled for both the F&O and Dataverse environments.
 
 <br><br>
