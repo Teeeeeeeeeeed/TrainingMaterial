@@ -1,7 +1,7 @@
 # Bulding Modern F&O Solutions
 
-## About the workshop
-In this workshop, we will take a deep dive into virtual entities and explore the whole new world of possibilities they offer. We will discuss how it has influenced best practices for designing solutions and examine several designs that utilise it.
+## About the Training Material
+In this Training, we will take a deep dive into virtual entities and explore the whole new world of possibilities they offer. We will discuss how it has influenced best practices for designing solutions and examine several designs that utilise it.
 
 We will walk you through and do exercises on how you use the virtual entities to build solutions with tools like:
 - Copilot Studio
