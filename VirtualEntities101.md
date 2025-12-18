@@ -44,14 +44,7 @@ If you bring your own environment, make sure the following requirements are met:
 <br><br>
 
 
-## Chapter 1 - Copilot studio
-For the first exercises, we need to enable the VT entities:
-- "SalesOrderLineV2Entity" (Sales order line V2) and
-- "SALESORDERHEADERV4ENTITY" (Sales order headers V4)
-
-<br>
-
-### Enable Virtual Entities
+## Enable Virtual Entities
 
 Go to make.powerapps.com <br>
 Select the right environment! (It's not the one that says "(default)" in the end) <br>
@@ -74,107 +67,9 @@ Access the record - > Select the Visible check box and Press Save <br><br>
 
 Once both virtual entities are enabled, you are good to go! <br><br>
 
+##  Model-driven Apps
 
-### Exercise 1 - Working In Copilot Studio
-
-Now go to: <br>
-https://copilotstudio.microsoft.com/ <br>
-If needed, press enable free trial <br>
-Press the Environment top right corner and select the environment that's connected to your F&O environment <br>
-Press "Agents" -> Press the "Copilot for finance and operations apps" <br> <br>
-<img width="1910" height="790" alt="image" src="https://github.com/user-attachments/assets/cc9c1433-c6a0-4b59-838d-b5922c4d7551" /> <br><br>
-
-
-Press Knowledge -> Dataverse <br><br>
-<img width="1203" height="572" alt="image" src="https://github.com/user-attachments/assets/b4e46b29-32a7-4a12-a0d3-1b8e49834d84" /> <br><br>
-
-Search for the tables/entities, select them and press add! <br><br>
-<img width="1079" height="608" alt="image" src="https://github.com/user-attachments/assets/fd5a6208-8c6e-445b-bc19-7f42788d145f" /> <br><br>
-<img width="936" height="324" alt="image" src="https://github.com/user-attachments/assets/3e20a64e-108b-4c08-9171-c63f8bf1ebe2" /> <br><br>
-
-
-Go to Topics -> Add a Topic -Select from blank <br><br>
-<img width="1420" height="448" alt="image" src="https://github.com/user-attachments/assets/3308d22e-099a-41e5-b767-8909cd1a35a0" /> <br><br>
-
-In the trigger section, press edit on User says a phrase <br>
-Add the following 4 trigger phrases <br>
-
-- How many open orders do we have?
-- How many open orders do we have
-- Open orders?
-- Open orders
-
-
-<img width="833" height="676" alt="image" src="https://github.com/user-attachments/assets/7c13e908-314a-486c-8953-5f614aee3bda" /> <br><br>
-
-Click the plus under the Trigger -> Advanced -> Generative Answer <br><br>
-<img width="621" height="659" alt="image" src="https://github.com/user-attachments/assets/c9501180-a15a-485d-aa40-47f611ebbe44" /> <br><br>
-
-Set Search only selected sources <br>
-Set 'Sales order headers V4' as Knowledge Source <br>
-Set Web search to false <br>
-Set the input to : "How many 'Sales order header V4' records are there where 'Status' equals 'Open order'" <br>
-And press save <br><br>
-<img width="822" height="766" alt="image" src="https://github.com/user-attachments/assets/efd6e54a-863e-4405-a086-d88a68b3cbc0" /> <br><br>
-
-Now try it out by adding one of your trigger phrases into the dialogue box down in the bottom right corner <br> <br><br>
-<img width="1425" height="775" alt="image" src="https://github.com/user-attachments/assets/98a908cb-f3f6-4014-a330-b30df5d8eb7b" /> <br><br>
-
-If it all looks good, press Publish in the top right corner <br>
-Now try the same in F&O!<br><br>
-<img width="1260" height="750" alt="image" src="https://github.com/user-attachments/assets/e944bdd3-ff4b-4093-aa39-c0ba61c05031" /><br><br>
-<br>
-
-### Exercise 2.A - Advanced Copilot Studio
-
-Create a new topic!<br>
-Let it trigger on phrases like "Open Net Value", "What's the open net value", "Net value" <br>
-
-After the topic, add a question to it <br>
-"What status should we sum it for?" <br>
-
-In Identity select Multiple choice option <br><br>
-
-- Open Order
-- Delivered
-- Invoiced
-- Canceled
-
-<img width="530" height="876" alt="image" src="https://github.com/user-attachments/assets/8a797cde-c433-4f70-827f-350b2b0736d8" /><br><br>
-
-
-If Conditions are created below, Delete them <br><br>
-
-Create the Generative Answer and set the data source to 'Sales Order Lines V2'<br>
-Press the 3 dots in the input and formula and past: <br>
-"Whats the Sum of Net Value for all 'Sales Order Line v2' records where 'Line Status' equals " & Topic.Var1 <br><br>
-<img width="778" height="485" alt="image" src="https://github.com/user-attachments/assets/4adfb1e5-797b-420e-b49f-61912fb6a3d0" /> <br><br>
- <br><br>
-
-Save and Publish and try! <br>
-<br>
-
-
-### Exercise 2.B - Advanced Copilot Studio
-
-Use your imagination to build a copilot of your choice! <br>
-Feel free to add new tables/entities to the knowledge base if you would like!<br>
-If you are feeling really wild and crazy, go to Settings and turn on the Respond with dynamic and Deep reasoning! <br><br>
-<img width="1015" height="190" alt="image" src="https://github.com/user-attachments/assets/39cde750-5d99-410b-8a05-8703b71d9aad" /> <br><br>
-
-Start by creating a new topic <br>
-And allow the copilot to read from a bigger scope of source <br><br>
-<img width="760" height="650" alt="image" src="https://github.com/user-attachments/assets/06b3bc5e-7bdf-4279-a2cd-a322751f3560" /> <br><br>
-
-Coolest Copilot with the best use case wins!
-<br><br><br>
-
-
-
-
-## Chapter 2 - Model-driven Apps
-
-### Exercise 3 - Purchase App
+### Exercise 1 - Purchase App
 
 Let's start this exercise by going in and making sure the following virtual entities are enabled: 
 
@@ -184,7 +79,7 @@ Let's start this exercise by going in and making sure the following virtual enti
 <br>
 
 
-Do the same steps as we did in [Enable Virtual Entities](https://github.com/Teeeeeeeeeeed/TrainingMaterial/edit/main/BuildingModernFOSolutions.md#enable-virtual-entities)
+ [See](https://github.com/Teeeeeeeeeeed/TrainingMaterial/edit/main/BuildingModernFOSolutions.md#enable-virtual-entities)
 
 Let's continue in the Maker portal  (make.powerapps.com)
 
@@ -301,9 +196,9 @@ Now go into F&O again, can you find your purchase order and purchase order line?
 <br><br><br>
 
 
-## Chapter 3 - Power Automate
+## Power Automate
 
-### Exercise 4 - Exchange Rate Updater
+### Exercise 2 - Exchange Rate Updater
 
 Let's start this exercise by going in and making sure the following virtual entities are enabled: 
 
@@ -341,7 +236,7 @@ Select the Dataverse "List Rows" Action <br> <br>
 <img width="491" height="591" alt="image" src="https://github.com/user-attachments/assets/fbeb3f51-8f45-4c8a-ae53-3dfdec45a6db" /> <br><br>
 
 In the table name select "Exchange rate currency pair (mserp)" <br>
-Important! - If you have two ones, select the bottom one. If you have two and select the top one , you will get an issue later in the exercise <br>
+Important! - If you have two ones, select the bottom one. If you have two and select the top one, you will get an issue later in the exercise <br>
 Press Save <br><br>
 <img width="565" height="444" alt="image" src="https://github.com/user-attachments/assets/abc758c7-025a-4ca3-b271-9b72a3df2a8d" /> <br><br>
 
