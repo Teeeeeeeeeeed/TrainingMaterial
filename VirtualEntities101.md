@@ -77,8 +77,6 @@ Let's start this exercise by going in and making sure the following virtual enti
 - PurchPurchaseOrderHeaderV2Entity ( Purchase order headers V2)
 - PurchPurchaseOrderLineCDSEntity (CDS purchase order line entity)
 <br>
-
-
  [See](https://github.com/Teeeeeeeeeeed/TrainingMaterial/edit/main/BuildingModernFOSolutions.md#enable-virtual-entities)
 
 Let's continue in the Maker portal  (make.powerapps.com)
