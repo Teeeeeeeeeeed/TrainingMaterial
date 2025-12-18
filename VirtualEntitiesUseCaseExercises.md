@@ -1,4 +1,4 @@
-# Bulding Modern F&O Solutions
+# Virtual Entities Use Case Exercises
 
 ## About the Training Material
 In this training, we will take a deep dive into virtual entities and explore the whole new world of possibilities they offer. We will discuss how it has influenced best practices for designing solutions and examine several designs that utilise it.
